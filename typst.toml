@@ -1,0 +1,22 @@
+[package]
+name = "semantrix"
+version = "0.1.0"
+entrypoint = 'src\lib.typ'
+authors = ["Jeppe Klitgaard"]
+description = "Semantically encoded mathematical objects (vector, matrix, tensor, bra, ket, random variable, ...)"
+keywords = [
+    "object",
+    "semantic",
+]
+categories = [
+    "components",
+    "model",
+    "layout",
+]
+disciplines = [
+    "mathematics",
+    "physics",
+]
+compiler = "0.14.2"
+
+[tool]
